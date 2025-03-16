@@ -31,21 +31,21 @@
 //     stagger : -1,
 //     opacity : 1
 // })
-// let tl = gsap.timeline();
-// tl.from("h2",{
-//     opacity : 0,
-//     y: 30,
-//     // color : "red",
-//     duration : 1,
-//     delay : 0.8
-// })
-// tl.from("h4",{
-//     opacity : 0,
-//     y: 30,
-//     // color : "red",
-//     duration : 1,
-//     stagger : 0.3
-// })
+let tl = gsap.timeline();
+tl.from("h2",{
+    opacity : 0,
+    y: 30,
+    // color : "red",
+    duration : 1,
+    delay : 0.8
+})
+tl.from("h4",{
+    opacity : 0,
+    y: 30,
+    // color : "red",
+    duration : 1,
+    stagger : 0.3
+})
 
 
 gsap.from("#div1 #box",{
