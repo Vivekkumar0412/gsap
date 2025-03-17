@@ -37,7 +37,7 @@ body{
     color: red;
 } */
 
-#div1{
+/* #div1{
     height: 100%;
     width: 100%;
     background-color: rgb(220, 139, 139);
@@ -53,6 +53,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+#div4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(82, 151, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #div3{
     height: 100%;
     width: 100%;
@@ -60,9 +68,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap : 50px
 }
 #box{
     background-color: crimson;
     height: 300px;
     width: 300px;
 }
+
+h1{
+    background-color: red;
+    padding:  20px;
+    /* position: relative; */
+    body{
+        overflow-x:hidden ;
+    }
+    #page1{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+    #page2{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(209, 222, 23);
+    }
+    #page3{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(240, 28, 187);
+    }
+    #page2 h1{
+        font-size: 40vw;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
